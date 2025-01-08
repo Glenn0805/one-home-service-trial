@@ -14,7 +14,7 @@ const Footer = () => {
             <h3 className="text-2xl font-semibold mb-4">Company</h3>
             <div className="mb-4 bg-white p-2 w-40">
               <img
-                src="/logo.svg" // Replace with your logo URL
+                src="/one-home-service-trial/logo.svg" // Replace with your logo URL
                 alt="Company Logo"
                 className="h-12 "
               />

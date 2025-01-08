@@ -49,7 +49,11 @@ export const Navbar = () => {
             color="foreground"
             href="/"
           >
-            <img src="/logo.svg" height={120} width={120} />
+            <img
+              src="/one-home-service-trial/logo.svg"
+              height={120}
+              width={120}
+            />
           </Link>
         </NavbarBrand>
       </NavbarContent>

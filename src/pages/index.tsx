@@ -4,7 +4,12 @@ import ReferalCard from "@/components/referralCard";
 import ClientLogoCarousel from "@/components/slider";
 import { motion } from "framer-motion";
 export default function IndexPage() {
-  const clientsLogo = ["/logo.svg", "/logo.svg", "/logo.svg", "/logo.svg"];
+  const clientsLogo = [
+    "/one-home-service-trial/logo.svg",
+    "/one-home-service-trial/logo.svg",
+    "/one-home-service-trial/logo.svg",
+    "/one-home-service-trial/logo.svg",
+  ];
 
   const testimonials = [
     {
@@ -173,7 +178,7 @@ export default function IndexPage() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="/map.jpg"
+              src="/one-home-service-trial/map.jpg"
               alt="Map of Broward County"
               className="w-full h-auto object-cover transform transition-transform duration-300 hover:scale-110"
             />
@@ -349,7 +354,7 @@ export default function IndexPage() {
               transition={{ duration: 0.8 }}
             >
               <img
-                src="/ceo.png" // Replace with the CEO's image URL
+                src="/one-home-service-trial/ceo.png" // Replace with the CEO's image URL
                 alt="CEO Image"
                 className="w-80 h-80 rounded-full object-cover shadow-xl mx-auto lg:mx-0"
               />
