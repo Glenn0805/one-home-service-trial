@@ -15,15 +15,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import clsx from "clsx";
 
 import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
-import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
-} from "@/components/icons";
-import { Logo } from "@/components/icons";
+import { SearchIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const searchInput = (
