@@ -9,7 +9,7 @@ import "font-awesome/css/font-awesome.min.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="https://Glenn0805.github.io/one-home-service-trial/">
+    <BrowserRouter basename="/one-home-service-trial">
       <Provider>
         <App />
       </Provider>
