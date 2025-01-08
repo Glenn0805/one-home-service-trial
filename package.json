@@ -1,5 +1,6 @@
 {
 	"name": "vite-template",
+	"homepage": "https://Glenn0805.github.io/one-home-service-trial/",
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
@@ -7,7 +8,9 @@
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"lint": "eslint -c .eslintrc.json ./src/**/**/*.{ts,tsx} --fix",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"@nextui-org/button": "2.2.8",
@@ -28,6 +31,7 @@
 		"clsx": "2.1.1",
 		"font-awesome": "^4.7.0",
 		"framer-motion": "^11.16.0",
+		"gh-pages": "^6.3.0",
 		"react": "18.3.1",
 		"react-chartjs-2": "^5.3.0",
 		"react-dom": "18.3.1",
